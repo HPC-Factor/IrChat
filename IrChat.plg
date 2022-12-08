@@ -1,0 +1,47 @@
+--------------------Configuration: IrChat - Win32 (WCE SH) Release--------------------
+Begining build with project "C:\_projs\WinCE Demos\IrChat\IrChat.dsp", at root.
+Active configuration is Win32 (WCE SH) Application (based on Win32 (WCE SH) Application)
+
+Project's tools are:
+			"C/C++ Compiler for SH" with flags "/nologo /ML /W3 /O2 /D _WIN32_WCE=$(CEVersion) /D "$(CEConfigName)" /D "NDEBUG" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /Fp"WCESHRel/IrChat.pch" /YX /Fo"WCESHRel/" /c "
+			"Resource Compiler (RC)" with flags "/l 0x41e /r /fo"WCESHRel/IrChat.res" /d "SHx" /d "SH3" /d "_SH3_" /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "$(CEConfigName)" /d "UNICODE" /d "NDEBUG" "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /o NUL /win32 "
+			"Browser Database Maker" with flags "/nologo /o"WCESHRel/IrChat.bsc" "
+			"COFF Linker for SH" with flags "commctrl.lib coredll.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /incremental:no /pdb:"WCESHRel/IrChat.pdb" /machine:SH3 /out:"WCESHRel/IrChat.exe" /subsystem:$(CESubsystem) "
+			"PFile Utility" with flags "COPY "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP90B2.TMP" with contents </nologo /ML /W3 /O2 /D _WIN32_WCE=200 /D "H/PC Ver. 2.00" /D "NDEBUG" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=200 /D "UNICODE" /Fp"WCESHRel/IrChat.pch" /YX /Fo"WCESHRel/" /c 
+"C:\_projs\WinCE Demos\IrChat\comm.cpp"
+"C:\_projs\WinCE Demos\IrChat\IrChat.cpp"
+"C:\_projs\WinCE Demos\IrChat\terminal.cpp"
+>
+Creating command line "shcl.exe @C:\WINDOWS\TEMP\RSP90B2.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP90B3.TMP" with contents <commctrl.lib coredll.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /incremental:no /pdb:"WCESHRel/IrChat.pdb" /machine:SH3 /out:"WCESHRel/IrChat.exe" /subsystem:windowsce,2.0 
+".\WCESHRel\comm.obj"
+".\WCESHRel\IrChat.obj"
+".\WCESHRel\terminal.obj"
+".\WCESHRel\IrChat.res">
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP90B3.TMP" 
+Compiling...
+comm.cpp
+IrChat.cpp
+terminal.cpp
+Linking...
+Creating command line "pfile.exe COPY  ".\WCESHRel\IrChat.exe" "WCE:IrChat.exe"" 
+
+Connecting with repllog.exe ('PC Link')...
+Connection established (Action 2).
+
+Removing debug info to reduce executable size...
+Copying '.\WCESHRel\IrChat.exe' to 'WCE:IrChat.exe'...
+Copying '.\WCESHRel\IrChat.exe' to 'WCE:IrChat.exe'...4096 bytes
+Copying '.\WCESHRel\IrChat.exe' to 'WCE:IrChat.exe'...8192 bytes
+Copying '.\WCESHRel\IrChat.exe' to 'WCE:IrChat.exe'...10752 bytes
+Copying '.\WCESHRel\IrChat.exe' to 'WCE:IrChat.exe'...Complete.
+Disconnecting from repllog.exe ('PC Link')...complete
+
+
+
+IrChat.exe - 0 error(s), 0 warning(s)

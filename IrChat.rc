@@ -1,0 +1,17 @@
+#include <windows.h>
+#include "resource.h"
+
+ID_MAIN_ICON ICON IrChat.ico
+
+ID_MAIN_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Exit",                       ID_FILE_EXIT
+    END
+    POPUP "&Connect"
+    BEGIN
+        MENUITEM "&Connect",                    ID_CONNECT
+        MENUITEM "&Disconnect",                 ID_DISCONNECT
+    END
+END
